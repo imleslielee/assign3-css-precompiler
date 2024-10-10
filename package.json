@@ -1,0 +1,19 @@
+{
+  "name": "assign3-css-precomiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "leslieisawesome": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run goservergo\" \"npm run leslieisawesome\""
+  },
+  "author": "Leslie Lee",
+  "license": "private",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.79.4"
+  }
+}
